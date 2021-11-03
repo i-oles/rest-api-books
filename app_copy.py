@@ -1,4 +1,4 @@
-from flask import Flask, abort
+from flask import Flask, abort, redirect
 from tinydb import TinyDB, Query
 import requests
 
@@ -18,7 +18,7 @@ def home():
 
 @app.route('/books')
 def get_all_books():
-    db.insert({'bookId' : 'dddddd', 'title': 'abrakadabra', 'lastname' : 'oles'})
+    #db.insert({'bookId' : 'dddddd', 'title': 'abrakadabra', 'lastname' : 'oles'})
     return {'all books' : db.all()}
 
 
@@ -49,14 +49,16 @@ def all_fields_in_book(book):
 def post_book(arg=''):
     b = Query()
     for book in items:
+
+        # fix it
+
         if db.search(b.bookId == book['id']):
-
-            ### finish here
-
-            db.updateById(book['id'], all_fields_in_book(book))
+            db.upsert(all_fields_in_book(book), b.bookId == book['id'])
+            print('all data updated correctly')
         else:
-            db.add(all_fields_in_book(book))
-    return {'all books' : db.getAll()}
+            db.insert_multiple(all_fields_in_book(book))
+            print('all data added correctly')
+    return {'all books' : db.all()}
 
 
 if __name__ == '__main__':
