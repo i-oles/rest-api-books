@@ -2,6 +2,15 @@ from flask import Flask, abort
 from pysondb import db
 import requests
 
+"""
+todo:
+1. pyson adds additional id_field of database record 
+2. POST -> change the route path and change source
+3. 
+
+"""
+
+
 app = Flask(__name__)
 db = db.getDb("db.json")
 
@@ -16,43 +25,42 @@ def home():
 
 
 @app.route('/books')
-def get_books():
-    return db.getAll()
+def get_all_books():
+    return {'all books' : db.getAll()}
 
 
 @app.route('/books/<bookId>')
-def get_book(**kwargs):
-    bookId = kwargs.get('bookId')
-
-    if bookId:
-        return base.get(bookId, None) or abort(404)
+def get_book(bookId):
+    if db.getBy({'bookId':bookId}):
+        book = db.getBy({'bookId':bookId})[0]
+        return {
+            'title' : book['title'],
+            #'authors' : book['authors'],
+            #'published_date' : book['publishedDate'],
+            #'categories' : book['categories'],
+            #'average_rating' : book['averageRating'],
+            #'ratings_count' : book['ratingsCount'],
+            #'thumbnail' : book['thumbnail']
+            }
     else:
-        pass
+        return abort(404)
 
-#some fields does not exist --> values to none
 
-def parse_parameters(book):
-    return {
-        'bookId' : book['id'],
-        'title' : book['volumeInfo']['title'],
-        'authors' : book['volumeInfo']['authors'],
-        'published_date' : book['volumeInfo'][''],
-        'categories' : book['volumeInfo'],
-        'average_rating' : book['volumeInfo'],
-        'ratings_count' : book['volumeInfo'],
-        'thumbnail' : book['volumeInfo']
-        }
+def all_fields_in_book(book):
+    keys = book.keys()
+    values = book.values()
+    all_fields = dict(zip(keys, values))
+    return all_fields
 
 
 @app.route('/books/posted')
 def post_book(arg=''):
-    #todo base url + arg
     for book in items:
-        if db.getBy({'bookId' : book['id']}):
-            db.update(parse_parameters(book))
+        if db.getBy({'bookId': book['id']}):
+            db.updateById(book['id'], all_fields_in_book(book))
         else:
-            db.add(parse_parameters(book))
-
+            db.add(all_fields_in_book(book))
+    return {'all books' : db.getAll()}
 
 
 if __name__ == '__main__':
