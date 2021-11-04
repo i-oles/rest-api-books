@@ -1,4 +1,4 @@
-from flask import Flask, abort
+from flask import Flask, abort, render_template
 from tinydb import TinyDB, Query
 from collections import OrderedDict
 import requests
@@ -14,7 +14,7 @@ items = data['items']
 
 @app.route("/")
 def home():
-    return "<p>Hello, World!</p>"
+    return render_template('app/index.html')
 
 
 @app.route('/books')
@@ -22,7 +22,7 @@ def get_all_books():
     return {'all books' : db.all()}
 
 
-def is_key_exist(book, key):
+def return_key_if_exist(book, key):
     try:
         return book['volumeInfo'][key]
     except:
@@ -34,13 +34,13 @@ def get_book(bookId):
     b = Query()
     if db.contains(b.id == bookId):
         book = dict(db.get(b.id == bookId))
-        return {'title' : is_key_exist(book, 'title'),
-                'authors' : is_key_exist(book, 'authors'),
-                'published_date' : is_key_exist(book, 'publishedDate'),
-                'categories' : is_key_exist(book, 'categories'),
-                'average_rating' : is_key_exist(book, 'average_rating'),
-                'ratings_count' : is_key_exist(book, 'ratings_count'),
-                'thumbnail' : is_key_exist(book, 'thumbnail')
+        return {'title' : return_key_if_exist(book, 'title'),
+                'authors' : return_key_if_exist(book, 'authors'),
+                'published_date' : return_key_if_exist(book, 'publishedDate'),
+                'categories' : return_key_if_exist(book, 'categories'),
+                'average_rating' : return_key_if_exist(book, 'average_rating'),
+                'ratings_count' : return_key_if_exist(book, 'ratings_count'),
+                'thumbnail' : return_key_if_exist(book, 'thumbnail')
                 }
     else:
         return abort(404)
