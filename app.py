@@ -45,7 +45,7 @@ def get_book(bookId):
     else:
         return abort(404)
 
-def all_fields_in_book(book):
+def all_keys_in_book(book):
     book = OrderedDict(book)
     keys = book.keys()
     values = book.values()
@@ -58,10 +58,10 @@ def post_book(arg=''):
     b = Query()
     for book in items:
         if db.contains(b.id == book['id']):
-            db.upsert(all_fields_in_book(book), b.id == book['id'])
+            db.upsert(all_keys_in_book(book), b.id == book['id'])
             print('all data updated correctly')
         else:
-            db.insert(all_fields_in_book(book))
+            db.insert(all_keys_in_book(book))
             print('all data added correctly')
     return {'all books' : db.all()}
 
