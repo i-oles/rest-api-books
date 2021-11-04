@@ -22,6 +22,15 @@ def get_all_books():
     return {'all books' : db.all()}
 
 
+@app.route('/books', methods=['POST', 'GET'])
+def filter_by_year():
+    if request.method == 'POST':
+        year = request.form['year']
+
+    # unfinished
+
+
+
 def return_key_if_exist(book, key):
     try:
         return book['volumeInfo'][key]
@@ -44,6 +53,9 @@ def get_book(bookId):
                 }
     else:
         return abort(404)
+
+
+
 
 def all_keys_in_book(book):
     book = OrderedDict(book)
