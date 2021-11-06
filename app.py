@@ -1,17 +1,29 @@
-from flask import Flask, abort, render_template
-from tinydb import TinyDB, Query
+from flask import Flask, abort, render_template, request
+from tinydb import TinyDB, Query, where
 from collections import OrderedDict
 import requests
+import re
 
 # Todo:
-# 1. change source url in post_book
-# 2. redirect,
-# 3. q= war
-# 4. author & author
-# 5. filter with sort together
-# 6. spliting authors, error? J.R.R Tolkien
-# 7. what if type two names of author Ronadl Raul Tolkien
+
+# less fields in db
+
+
+# author & author
+# filter with sort together
+
 # 8. books list - only title?
+
+# venv/pyenv.cfg
+# include-system-site-packages = true
+    #sort = request.form.get('sort')
+
+    # TODO wybrać match/substring zamiast ==
+    # books = db.search(where('volumeInfo')['q'] == q) if q else db.all()
+
+
+    # books = db.search(where('volumeInfo')['authors'].any(authors)) if authors else {}
+
 
 
 app = Flask(__name__)
@@ -22,17 +34,57 @@ data = requests.get(base_url).json()
 items = data['items']
 
 
-@app.route("/")
-def home():
+@app.route("/books", methods=['GET', 'POST'])
+def books():
+    if request.method == 'POST':
+        year = request.form.get('year')
+        books = db.search(where('volumeInfo')['datePublished']).matches('^1695(?=-|$)')
+
     return render_template('app/index.html')
 
 
-@app.route('/books')
-def get_all_books():
-    return {'all books' : db.all()}
+def all_keys_in_book(book):
+    book = OrderedDict(book)
+    keys = book.keys()
+    values = book.values()
+    all_fields = dict(zip(keys, values))
+    return all_fields
 
 
-@app.route('/books/date', methods=['POST', 'GET'])
+@app.route('/db', methods=['GET', 'POST'])
+def add_books():
+    if request.method == 'POST':
+        q = request.form.get('q')
+        api_url = 'https://www.googleapis.com/books/v1/volumes' + '?q=' + q
+
+        data = requests.get(api_url).json()
+        items = data['items']
+
+        for book in items:
+            if db.contains(Query().id == book['id']):
+                db.upsert(all_keys_in_book(book), Query().id == book['id'])
+                print('updated')
+            else:
+                db.insert(all_keys_in_book(book))
+                print('added')
+    
+    return render_template('app/add_books.html')
+
+
+
+
+
+"""
+
+
+
+    if request.method == 'POST':
+           
+
+
+
+
+@app.route('/books', methods=['POST', 'GET'])
 def filter_by_year():
     if request.method == 'POST':
         year = request.form['year']
@@ -49,9 +101,8 @@ def raw_data(data):
     return data.strip()
 
 
-@app.route('/books/authors', methods=['POST', 'GET'])
+@app.route('/books', methods=['POST', 'GET'])
 def filter_by_authors():
-    
     filtered_books = []
 
     def find_book_by_author(name):
@@ -60,12 +111,11 @@ def filter_by_authors():
             if name in author:
                 filtered_books.append(book)
 
-    #if request.method == 'POST':
-        #authors = request.form['autors'].replace(',' , '')
-    authors = 'tolkien, fisher'
-    authors = [raw_data(author) for author in authors.split()]
-    for author in authors:
-        find_book_by_author(author)
+    if request.method == 'POST':
+        authors = request.form['autors'].replace(',' , '')
+        authors = [raw_data(author) for author in authors.split()]
+        for author in authors:
+            find_book_by_author(author)
     
     #return {f'written by {authors}' : [book for book in filtered_books]}
     return {f'written by {authors}' : filtered_books}
@@ -92,9 +142,8 @@ def return_key_if_exist(book, key):
 
 @app.route('/books/<bookId>')
 def get_book(bookId):
-    b = Query()
-    if db.contains(b.id == bookId):
-        book = db.get(b.id == bookId)
+    if db.contains(Query().id == bookId):
+        book = db.get(Query().id == bookId)
         return {'title' : return_key_if_exist(book, 'title'),
                 'authors' : return_key_if_exist(book, 'authors'),
                 'published_date' : return_key_if_exist(book, 'publishedDate'),
@@ -106,26 +155,7 @@ def get_book(bookId):
     else:
         return abort(404)
 
-
-def all_keys_in_book(book):
-    book = OrderedDict(book)
-    keys = book.keys()
-    values = book.values()
-    all_fields = dict(zip(keys, values))
-    return all_fields
-
-
-@app.route('/books/posted')
-def send_book():
-    b = Query()
-    for book in items:
-        if db.contains(b.id == book['id']):
-            db.upsert(all_keys_in_book(book), b.id == book['id'])
-        else:
-            db.insert(all_keys_in_book(book))
-
-    return {'all books' : db.all()}
-
+"""
 
 if __name__ == '__main__':
     app.run(debug=True)

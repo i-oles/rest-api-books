@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>Books</title>
+    <title>add to DB</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
@@ -12,12 +12,12 @@
 
     <main role="main" class="container">
     <br>
-    <h3>Volumes</h3><br>
-      <form method="POST">
+    <h3>Add to DB...</h3><br>
+      <form method="POST" >
         <div class="form-row">
             <div class="form-group col-12">
                 <div class="input-group">
-                    <input class="form-control py-2 border-right-0 border" type="search" name="book_id" placeholder="Exact book id..." />
+                    <input class="form-control py-2 border-right-0 border" type="search" name="q" placeholder="q..." />
                     <span class="input-group-append">
                         <div class="input-group-text bg-transparent">
                             <i class="fa fa-search"></i>
@@ -25,41 +25,15 @@
                     </span>
                 </div>
             </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-12">
-                <div class="input-group">
-                    <input class="form-control py-2 border-right-0 border" type="search" name="authors" placeholder="Author name/names..." />
-                    <span class="input-group-append">
-                        <div class="input-group-text bg-transparent">
-                            <i class="fa fa-search"></i>
-                        </div>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-12">
-              <div class="input-group">
-                  <input class="form-control py-2 border-right-0 border" type="search" name="year" placeholder="Published date..." />
-                  <span class="input-group-append">
-                      <div class="input-group-text bg-transparent">
-                          <i class="fa fa-search"></i>
-                      </div>
-                  </span>
-              </div>
           </div>
-        </div>
+        
 
         <button type="submit" class="btn btn-primary">Search</button>
       </form>
 
       <hr />
         <div class="row">
-            <ul>
 
-
-            </ul>
         </div>
     </main>
 
