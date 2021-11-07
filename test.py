@@ -1,5 +1,5 @@
-books = [{'book1': 'a'}, {'book2': 'b'}]
+books = {'book1': {'a': 'b'} }
 
-x = sorted(books, key=lambda book: book['book1'])
 
+x = books['book1'].get('a', None)
 print(x)

@@ -17,18 +17,6 @@
         <div class="form-row">
             <div class="form-group col-12">
                 <div class="input-group">
-                    <input class="form-control py-2 border-right-0 border" type="search" name="book_id" placeholder="Exact book id..." />
-                    <span class="input-group-append">
-                        <div class="input-group-text bg-transparent">
-                            <i class="fa fa-search"></i>
-                        </div>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-12">
-                <div class="input-group">
                     <input class="form-control py-2 border-right-0 border" type="search" name="authors" placeholder="Author name/names..." />
                     <span class="input-group-append">
                         <div class="input-group-text bg-transparent">
@@ -50,6 +38,25 @@
               </div>
           </div>
         </div>
+        
+        <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="ascending" name="ascending">
+              <label class="form-check-label" for="ascending">
+                show books by published_date (ascending)
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="descending" name="descending">
+              <label class="form-check-label" for="descending">
+                show books by published_date (descending)
+              </label>
+            </div>
+          </div>
+
+
 
         <button type="submit" class="btn btn-primary">Search</button>
       </form>
