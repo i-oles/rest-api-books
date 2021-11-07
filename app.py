@@ -38,12 +38,10 @@ def get_books():
     def myFunc(e):
         return e['volumeInfo']
 
-    sort = request.args.get('ascending')
-    if sort:
+    sort = request.args.get('sort')
+    if sort == 'published_date':
         return db.all().sort(key=myFunc)
-
-    descending = request.form.get('decsending')
-    if descending:
+    if sort == '-published_date':
         return db.all().sort(reverse= True, key=lambda x: x['volumeInfo']['publishedDate'])
 
     return {'all books' : db.all() }
@@ -67,18 +65,17 @@ def all_keys_in_book(book):
 
 @app.route('/db', methods=['POST'])
 def add_books():
-    if request.method == 'POST':
-        q = request.arg.get('q')
-        api_url = 'https://www.googleapis.com/books/v1/volumes' + '?q=' + q
+    q = requests.data=payload)
+    d = 'https://www.googleapis.com/books/v1/volumes'
 
-        data = requests.get(api_url).json()
-        items = data['items']
+    data = requests.get(api_url).json()
+    items = data['items']
 
-        for book in items:
-            if db.contains(Query().id == book['id']):
-                db.upsert(all_keys_in_book(book), Query().id == book['id'])
-            else:
-                db.insert(all_keys_in_book(book))
+    for book in items:
+        if db.contains(Query().id == book['id']):
+            db.upsert(all_keys_in_book(book), Query().id == book['id'])
+        else:
+            db.insert(all_keys_in_book(book))
 
     return { 'all books': db.all() }
 
