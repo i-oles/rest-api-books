@@ -22,7 +22,7 @@ import re
     # books = db.search(where('volumeInfo')['q'] == q) if q else db.all()
 
 
-    # books = db.search(where('volumeInfo')['authors'].any(authors)) if authors else {}
+    # &
 
 
 
@@ -34,13 +34,26 @@ data = requests.get(base_url).json()
 items = data['items']
 
 
+
 @app.route("/books", methods=['GET', 'POST'])
 def books():
+    """
     if request.method == 'POST':
-        year = request.form.get('year')
-        books = db.search(where('volumeInfo')['datePublished']).matches('^1695(?=-|$)')
+        authors = request.form.get('authors')
+        books_by_authors = db.search(where('volumeInfo')['authors'].any(authors))
+
+        return {'authors': books_by_authors}
+    
+    if request.method == 'POST':
+        published_date = request.form.get('published_date')
+        books_by_date = db.search(Query().volumeInfo.publishedDate.search(published_date))
+        
+        return {'authors': books_by_date}
+    """
 
     return render_template('app/index.html')
+
+
 
 
 def all_keys_in_book(book):
@@ -66,9 +79,11 @@ def add_books():
                 print('updated')
             else:
                 db.insert(all_keys_in_book(book))
-                print('added')
+                print('added') 
+        return { 'all books': db.all() }
     
     return render_template('app/add_books.html')
+
 
 
 
@@ -77,9 +92,27 @@ def add_books():
 """
 
 
+def return_key_if_exist(book, key):
+    try:
+        return book['volumeInfo'][key]
+    except:
+        return None
+    
 
-    if request.method == 'POST':
-           
+@app.route('/books/<bookId>')
+def get_book(bookId):
+    if db.contains(Query().id == bookId):
+        book = db.get(Query().id == bookId)
+        return {'title' : return_key_if_exist(book, 'title'),
+                'authors' : return_key_if_exist(book, 'authors'),
+                'published_date' : return_key_if_exist(book, 'publishedDate'),
+                'categories' : return_key_if_exist(book, 'categories'),
+                'average_rating' : return_key_if_exist(book, 'average_rating'),
+                'ratings_count' : return_key_if_exist(book, 'ratings_count'),
+                'thumbnail' : return_key_if_exist(book, 'thumbnail')
+                }
+    else:
+        return abort(404)
 
 
 
@@ -133,27 +166,7 @@ def sort_by_date():
         return db.all().sort(reverse= True, key=lambda x: x['volumeInfo']['publishedDate'])
 
 
-def return_key_if_exist(book, key):
-    try:
-        return book['volumeInfo'][key]
-    except:
-        return None
-    
 
-@app.route('/books/<bookId>')
-def get_book(bookId):
-    if db.contains(Query().id == bookId):
-        book = db.get(Query().id == bookId)
-        return {'title' : return_key_if_exist(book, 'title'),
-                'authors' : return_key_if_exist(book, 'authors'),
-                'published_date' : return_key_if_exist(book, 'publishedDate'),
-                'categories' : return_key_if_exist(book, 'categories'),
-                'average_rating' : return_key_if_exist(book, 'average_rating'),
-                'ratings_count' : return_key_if_exist(book, 'ratings_count'),
-                'thumbnail' : return_key_if_exist(book, 'thumbnail')
-                }
-    else:
-        return abort(404)
 
 """
 
