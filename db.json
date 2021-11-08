@@ -3,7 +3,7 @@
         "1": {
             "kind": "books#volume",
             "id": "ckD1DwAAQBAJ",
-            "etag": "HE+Vbt+YG+c",
+            "etag": "7cd0VFVmTt4",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/ckD1DwAAQBAJ",
             "volumeInfo": {
                 "title": "China\u2019s Good War",
@@ -102,7 +102,7 @@
         "2": {
             "kind": "books#volume",
             "id": "T0Cp3kt2tE4C",
-            "etag": "HS93C/PFYO0",
+            "etag": "xsNi6pbInBU",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/T0Cp3kt2tE4C",
             "volumeInfo": {
                 "title": "The Changing Face of War",
@@ -173,104 +173,8 @@
         },
         "3": {
             "kind": "books#volume",
-            "id": "STXDDwAAQBAJ",
-            "etag": "DbfmDqj8DbM",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/STXDDwAAQBAJ",
-            "volumeInfo": {
-                "title": "Rhythm of War",
-                "authors": [
-                    "Brandon Sanderson"
-                ],
-                "publisher": "Hachette UK",
-                "publishedDate": "2020-11-17",
-                "description": "The Stormlight Archive saga continues in Rhythm of War, the eagerly awaited sequel to Brandon Sanderson's #1 New York Times bestselling Oathbringer, from an epic fantasy writer at the top of his game. After forming a coalition of human resistance against the enemy invasion, Dalinar Kholin and his Knights Radiant have spent a year fighting a protracted, brutal war. Neither side has gained an advantage, and the threat of a betrayal by Dalinar's crafty ally Taravangian looms over every strategic move. Now, as new technological discoveries by Navani Kholin's scholars begin to change the face of the war, the enemy prepares a bold and dangerous operation. The arms race that follows will challenge the very core of the Radiant ideals, and potentially reveal the secrets of the ancient tower that was once the heart of their strength. At the same time that Kaladin Stormblessed must come to grips with his changing role within the Knights Radiant, his Windrunners face their own problem: As more and more deadly enemy Fused awaken to wage war, no more honorspren are willing to bond with humans to increase the number of Radiants. Adolin and Shallan must lead the coalition's envoy to the honorspren stronghold of Lasting Integrity and either convince the spren to join the cause against the evil god Odium, or personally face the storm of failure. Other books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780575093409"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "0575093404"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": false
-                },
-                "pageCount": 1232,
-                "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.7.5.0.preview.2",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=STXDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=STXDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.be/books?id=STXDDwAAQBAJ&printsec=frontcover&dq=war&hl=&cd=3&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=STXDDwAAQBAJ&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=STXDDwAAQBAJ"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "FOR_SALE",
-                "isEbook": true,
-                "listPrice": {
-                    "amount": 8.99,
-                    "currencyCode": "EUR"
-                },
-                "retailPrice": {
-                    "amount": 8.99,
-                    "currencyCode": "EUR"
-                },
-                "buyLink": "https://play.google.com/store/books/details?id=STXDDwAAQBAJ&rdid=book-STXDDwAAQBAJ&rdot=1&source=gbs_api",
-                "offers": [
-                    {
-                        "finskyOfferType": 1,
-                        "listPrice": {
-                            "amountInMicros": 8990000,
-                            "currencyCode": "EUR"
-                        },
-                        "retailPrice": {
-                            "amountInMicros": 8990000,
-                            "currencyCode": "EUR"
-                        }
-                    }
-                ]
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/Rhythm_of_War-sample-epub.acsm?id=STXDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=STXDDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "The Stormlight Archive saga continues in Rhythm of War, the eagerly awaited sequel to Brandon Sanderson&#39;s #1 New York Times bestselling Oathbringer, from an epic fantasy writer at the top of his game."
-            }
-        },
-        "4": {
-            "kind": "books#volume",
             "id": "apZmAAAAcAAJ",
-            "etag": "0UmJAQFRuCo",
+            "etag": "dePm9CKE92c",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/apZmAAAAcAAJ",
             "volumeInfo": {
                 "title": "An Essay upon ways and means of supplying the war. [By C. Davenant.]",
@@ -302,7 +206,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=apZmAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "nl",
-                "previewLink": "http://books.google.be/books?id=apZmAAAAcAAJ&pg=PA107&dq=war&hl=&cd=4&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=apZmAAAAcAAJ&pg=PA107&dq=war&hl=&cd=3&source=gbs_api",
                 "infoLink": "https://play.google.com/store/books/details?id=apZmAAAAcAAJ&source=gbs_api",
                 "canonicalVolumeLink": "https://play.google.com/store/books/details?id=apZmAAAAcAAJ"
             },
@@ -333,10 +237,10 @@
                 "textSnippet": "The Parliament suspected an Aid was desired , and no <b>War</b> intended , fo that their Guift seems condicional , and they name Commissioners , to fee to the due Performance of the Truft . But afterwards , in the Reign of Harry the Seventh&nbsp;..."
             }
         },
-        "5": {
+        "4": {
             "kind": "books#volume",
             "id": "RiBZAAAAcAAJ",
-            "etag": "OxJhDlXOABg",
+            "etag": "6qJfGNxePT8",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/RiBZAAAAcAAJ",
             "volumeInfo": {
                 "title": "War-net der papisten, waer in sy haer self soo verwarren, dat sy niet maghtigh en sijn daar uyt te spartelen, ...",
@@ -367,7 +271,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=RiBZAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "nl",
-                "previewLink": "http://books.google.be/books?id=RiBZAAAAcAAJ&pg=PA120&dq=war&hl=&cd=5&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=RiBZAAAAcAAJ&pg=PA120&dq=war&hl=&cd=4&source=gbs_api",
                 "infoLink": "https://play.google.com/store/books/details?id=RiBZAAAAcAAJ&source=gbs_api",
                 "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RiBZAAAAcAAJ"
             },
@@ -398,10 +302,10 @@
                 "textSnippet": "Van de volherdinge der 120 Het <b>W\u00e4r</b> - Net."
             }
         },
-        "6": {
+        "5": {
             "kind": "books#volume",
             "id": "YxyaBzu37WIC",
-            "etag": "UpN5lqgUSJQ",
+            "etag": "3MlTdrHJe6M",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/YxyaBzu37WIC",
             "volumeInfo": {
                 "title": "The War Works Hard",
@@ -444,7 +348,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=YxyaBzu37WIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.be/books?id=YxyaBzu37WIC&printsec=frontcover&dq=war&hl=&cd=6&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=YxyaBzu37WIC&printsec=frontcover&dq=war&hl=&cd=5&source=gbs_api",
                 "infoLink": "http://books.google.be/books?id=YxyaBzu37WIC&dq=war&hl=&source=gbs_api",
                 "canonicalVolumeLink": "https://books.google.com/books/about/The_War_Works_Hard.html?hl=&id=YxyaBzu37WIC"
             },
@@ -474,10 +378,10 @@
                 "textSnippet": "Poems by an exiled Iraqi poet, many about war."
             }
         },
-        "7": {
+        "6": {
             "kind": "books#volume",
             "id": "GoBjAAAAcAAJ",
-            "etag": "tsJqADj9fRo",
+            "etag": "UTLkLoa0VPA",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/GoBjAAAAcAAJ",
             "volumeInfo": {
                 "title": "De war-religie ofte de verwarde, valsche en reden-loose religie Iacobi Triglandii, aengewesen in syn boeck geintituleert De ware religie verantwoort, &c",
@@ -507,7 +411,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=GoBjAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "nl",
-                "previewLink": "http://books.google.be/books?id=GoBjAAAAcAAJ&pg=PA249&dq=war&hl=&cd=7&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=GoBjAAAAcAAJ&pg=PA249&dq=war&hl=&cd=6&source=gbs_api",
                 "infoLink": "https://play.google.com/store/books/details?id=GoBjAAAAcAAJ&source=gbs_api",
                 "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GoBjAAAAcAAJ"
             },
@@ -538,10 +442,10 @@
                 "textSnippet": "3 11 O t 23 \u5317 om met den monte uptetlijik gefchiet.sffer koel pertant To <b>Wars</b> getoetfi noe ter tijt / ofte fauder boel pemant fo dwaeg t&#39;eenigen toen gevonden wozden die foude berben dzpb\u00e9 / bat de upterlijcke belpdenifie die altren&nbsp;..."
             }
         },
-        "8": {
+        "7": {
             "kind": "books#volume",
             "id": "x38uAQAAIAAJ",
-            "etag": "NcMbzitQbW8",
+            "etag": "pdO0hFhCF2E",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/x38uAQAAIAAJ",
             "volumeInfo": {
                 "title": "The Vietnam War",
@@ -578,7 +482,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=x38uAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.be/books?id=x38uAQAAIAAJ&q=war&dq=war&hl=&cd=8&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=x38uAQAAIAAJ&q=war&dq=war&hl=&cd=7&source=gbs_api",
                 "infoLink": "http://books.google.be/books?id=x38uAQAAIAAJ&dq=war&hl=&source=gbs_api",
                 "canonicalVolumeLink": "https://books.google.com/books/about/The_Vietnam_War.html?hl=&id=x38uAQAAIAAJ"
             },
@@ -607,108 +511,10 @@
                 "textSnippet": "The Perfect <b>War</b> : The <b>War</b> We Couldn &#39; t Lose and How We Did . Boston : Atlantic Monthly Press , 1986 . Gilbert , Marc Jason , ed . Why the North Won the Vietnam <b>War</b> . New York : Palgrave , 2002 . Hay , Jeff , ed . Richard M . Nixon ."
             }
         },
-        "9": {
-            "kind": "books#volume",
-            "id": "3tk6DQAAQBAJ",
-            "etag": "kkSOJY9g4sE",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/3tk6DQAAQBAJ",
-            "volumeInfo": {
-                "title": "The Vietnam War in Popular Culture: The Influence of America's Most Controversial War on Everyday Life [2 volumes]",
-                "subtitle": "The Influence of America's Most Controversial War on Everyday Life",
-                "authors": [
-                    "Ron Milam"
-                ],
-                "publisher": "ABC-CLIO",
-                "publishedDate": "2016-11-07",
-                "description": "Covering many aspects of the Vietnam War that have not been addressed before, this book supplies new perspectives from academics as well as Vietnam veterans that explore how this key conflict of the 20th century has influenced everyday life and popular culture during the war as well as for the past 50 years. \u2022 Addresses an especially eventful time in American history with long-lasting consequences\u2014a period that has parallels with more recent events involving military conflicts in Iraq and Afghanistan \u2022 Provides coverage of Norman Lear, creator of the popular 1970s sitcom All In The Family, including information from a recent interview \u2022 Includes viewpoints from Vietnam combat veterans regarding how film and television portrayed the war they participated in and lived through \u2022 Supplies a chapter on the Vietnam veteran biker movement",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9781440840470"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "1440840474"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": true
-                },
-                "pageCount": 772,
-                "printType": "BOOK",
-                "categories": [
-                    "Social Science"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "1.2.2.0.preview.3",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=3tk6DQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=3tk6DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.be/books?id=3tk6DQAAQBAJ&printsec=frontcover&dq=war&hl=&cd=9&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=3tk6DQAAQBAJ&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3tk6DQAAQBAJ"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "FOR_SALE",
-                "isEbook": true,
-                "listPrice": {
-                    "amount": 159,
-                    "currencyCode": "EUR"
-                },
-                "retailPrice": {
-                    "amount": 111.3,
-                    "currencyCode": "EUR"
-                },
-                "buyLink": "https://play.google.com/store/books/details?id=3tk6DQAAQBAJ&rdid=book-3tk6DQAAQBAJ&rdot=1&source=gbs_api",
-                "offers": [
-                    {
-                        "finskyOfferType": 1,
-                        "listPrice": {
-                            "amountInMicros": 159000000,
-                            "currencyCode": "EUR"
-                        },
-                        "retailPrice": {
-                            "amountInMicros": 111300000,
-                            "currencyCode": "EUR"
-                        }
-                    }
-                ]
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/The_Vietnam_War_in_Popular_Culture_The_I-sample-epub.acsm?id=3tk6DQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/The_Vietnam_War_in_Popular_Culture_The_I-sample-pdf.acsm?id=3tk6DQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=3tk6DQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Covering many aspects of the Vietnam War that have not been addressed before, this book supplies new perspectives from academics as well as Vietnam veterans that explore how this key conflict of the 20th century has influenced everyday life ..."
-            }
-        },
-        "10": {
+        "8": {
             "kind": "books#volume",
             "id": "K23eCgAAQBAJ",
-            "etag": "JuKKrONZ4M4",
+            "etag": "nbQYVnAbZdw",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/K23eCgAAQBAJ",
             "volumeInfo": {
                 "title": "Japan and the Great War",
@@ -750,7 +556,7 @@
                     "thumbnail": "http://books.google.com/books/content?id=K23eCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.be/books?id=K23eCgAAQBAJ&printsec=frontcover&dq=war&hl=&cd=10&source=gbs_api",
+                "previewLink": "http://books.google.be/books?id=K23eCgAAQBAJ&printsec=frontcover&dq=war&hl=&cd=8&source=gbs_api",
                 "infoLink": "https://play.google.com/store/books/details?id=K23eCgAAQBAJ&source=gbs_api",
                 "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K23eCgAAQBAJ"
             },
@@ -803,252 +609,34 @@
                 "textSnippet": "In this book, seven internationally renowned experts on Japanese and Asian history have come together to investigate, with innovative methodological approaches, various aspects of the Japanese experience during and after the First World War ..."
             }
         },
-        "11": {
+        "9": {
             "kind": "books#volume",
-            "id": "YRe6zQEACAAJ",
-            "etag": "aUiuQ3YKTwE",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/YRe6zQEACAAJ",
+            "id": "AEGPAAAAMAAJ",
+            "etag": "U7r70H5DRzk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/AEGPAAAAMAAJ",
             "volumeInfo": {
-                "title": "De hobbit",
+                "title": "Globalization and War",
                 "authors": [
-                    "John Ronald Reuel Tolkien"
+                    "Tarak Barkawi"
                 ],
-                "publishedDate": "2020",
-                "description": "Hobbit Bilbo Balings wordt door tovenaar Gandalf uitgezonden om een groep dwergen te leiden bij hun speurtocht naar de draak Smaug, die de schatten van het dwergenvolk heeft geroofd. Vanaf ca. 13 jaar.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "9022591409"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9789022591406"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "language": "nl",
-                "previewLink": "http://books.google.be/books?id=YRe6zQEACAAJ&dq=Hobbit&hl=&cd=1&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=YRe6zQEACAAJ&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/De_hobbit.html?hl=&id=YRe6zQEACAAJ"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "NO_PAGES",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=YRe6zQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "NONE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Hobbit Bilbo Balings wordt door tovenaar Gandalf uitgezonden om een groep dwergen te leiden bij hun speurtocht naar de draak Smaug, die de schatten van het dwergenvolk heeft geroofd. Vanaf ca. 13 jaar."
-            }
-        },
-        "12": {
-            "kind": "books#volume",
-            "id": "upjxCgAAQBAJ",
-            "etag": "fmeBv/3VxOY",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/upjxCgAAQBAJ",
-            "volumeInfo": {
-                "title": "De hobbit",
-                "subtitle": "of daarheen en weer terug",
-                "authors": [
-                    "J.R.R. Tolkien"
-                ],
-                "publisher": "Boekerij",
-                "publishedDate": "2015-11-19",
-                "description": "Dit is het verhaal van een Balings die w\u00e9l een avontuur beleefde en tegen wil en dank volkomen onverwachte dingen deed en zei. Hij mag dan misschien het respect van zijn buren verloren hebben, maar... welnu, je zult zien of hij er uiteindelijk beter van werd. Bilbo Balings is een hobbit die geniet van zijn comfortabele, ambitieloze leven. Hij moet er niet aan denken om een reis te ondernemen die verder gaat dan de voorraadkamer van zijn hobbithol onder De Heuvel. Maar zijn geluk wordt verstoord als de tovenaar Gandalf met dertien dwergen op zijn stoep staat om hem mee te nemen op een ongewis avontuur. Ze zijn uit op de schat van Smaug de Verschrikkelijke, een immense en hoogst gevaarlijke draak. Maar ze zijn niet de enigen... Deze speciale editie van De hobbit bevat illustraties van de hand van Tolkien zelf, alsmede een voorwoord van zijn zoon Christopher Tolkien uit 1987, dat hij schreef om de 50ste verjaardag van De hobbit in de Engelse taal te vieren.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9789402306538"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "9402306536"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": true
-                },
-                "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.5.6.0.preview.3",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=upjxCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=upjxCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "nl",
-                "previewLink": "http://books.google.be/books?id=upjxCgAAQBAJ&printsec=frontcover&dq=Hobbit&hl=&cd=2&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=upjxCgAAQBAJ&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/De_hobbit.html?hl=&id=upjxCgAAQBAJ"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/De_hobbit-sample-epub.acsm?id=upjxCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/De_hobbit-sample-pdf.acsm?id=upjxCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=upjxCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Deze speciale editie van De hobbit bevat illustraties van de hand van Tolkien zelf, alsmede een voorwoord van zijn zoon Christopher Tolkien uit 1987, dat hij schreef om de 50ste verjaardag van De hobbit in de Engelse taal te vieren."
-            }
-        },
-        "13": {
-            "kind": "books#volume",
-            "id": "pD6arNyKyi8C",
-            "etag": "psS+WtFyNEw",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/pD6arNyKyi8C",
-            "volumeInfo": {
-                "title": "The Hobbit",
-                "authors": [
-                    "J.R.R. Tolkien"
-                ],
-                "publisher": "Houghton Mifflin Harcourt",
-                "publishedDate": "2012-02-15",
-                "description": "A great modern classic and the prelude to The Lord of the Rings. Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum. \u201cA glorious account of a magnificent adventure, filled with suspense and seasoned with a quiet humor that is irresistible . . . All those, young or old, who love a fine adventurous tale, beautifully told, will take The Hobbit to their hearts.\u201d \u2013 New York Times Book Review",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780547951973"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "0547951973"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": true
-                },
-                "pageCount": 288,
-                "printType": "BOOK",
-                "categories": [
-                    "Young Adult Fiction"
-                ],
-                "averageRating": 4.5,
-                "ratingsCount": 162,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.14.13.0.preview.3",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=pD6arNyKyi8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=pD6arNyKyi8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.be/books?id=pD6arNyKyi8C&printsec=frontcover&dq=Hobbit&hl=&cd=3&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=pD6arNyKyi8C&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=pD6arNyKyi8C"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/The_Hobbit-sample-epub.acsm?id=pD6arNyKyi8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/The_Hobbit-sample-pdf.acsm?id=pD6arNyKyi8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=pD6arNyKyi8C&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": ". . All those, young or old, who love a fine adventurous tale, beautifully told, will take The Hobbit to their hearts.\u201d \u2013 New York Times Book Review"
-            }
-        },
-        "14": {
-            "kind": "books#volume",
-            "id": "Lp9aAAAAYAAJ",
-            "etag": "alyX76pwqAI",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/Lp9aAAAAYAAJ",
-            "volumeInfo": {
-                "title": "The Hobbit",
-                "subtitle": "Or, There and Back Again",
-                "authors": [
-                    "John Ronald Reuel Tolkien"
-                ],
-                "publishedDate": "1966",
-                "description": "Bilbo Baggins, the hobbit, is a peaceful sort who lives in a cozy hole in the Shire, a place where adventures are uncommon - and rather unwanted. So when the wizard Gandalf whisks him away on a treasure-hunting expedition with a troop of rowdy dwarves, he's not entirely thrilled. Encountering ruthless trolls, beastly orcs, gigantic spiders, and hungry wolves, Bilbo discovers within himself astonishing strength and courage. And at the ultimate confrontation with the fearsome dragon Smaug, the hobbit will brave the dangers of the dark and dragon fire alone and unaided.",
+                "publisher": "Rowman & Littlefield Pub Incorporated",
+                "publishedDate": "2006",
+                "description": "Examining the interconnections between globalization and war, Barkawi (Centre of International Studies, U. of Cambridge, UK) first analyzes how war interconnects and reshapes places and how developments in the nature and utility of military force shape transregional and worldwide contexts, utilizing the relations among India, the British empire, and the Indian Army is illustrative material. He then examines cultural dimensions of war and globalization such as \"geographic imaginaries\" of a modern and advance West and a barbarous Orient. The themes developed in these chapters are then applied to the \"War on Terror.\"",
                 "industryIdentifiers": [
                     {
                         "type": "OTHER",
-                        "identifier": "PSU:000029329236"
+                        "identifier": "UOM:39015061207687"
                     }
                 ],
                 "readingModes": {
                     "text": false,
                     "image": false
                 },
-                "pageCount": 287,
+                "pageCount": 199,
                 "printType": "BOOK",
                 "categories": [
-                    "Baggins, Bilbo (Fictitious character)"
+                    "Political Science"
                 ],
-                "averageRating": 4,
-                "ratingsCount": 606,
                 "maturityRating": "NOT_MATURE",
                 "allowAnonLogging": false,
                 "contentVersion": "0.0.1.0.preview.0",
@@ -1057,13 +645,13 @@
                     "containsImageBubbles": false
                 },
                 "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=Lp9aAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=Lp9aAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                    "smallThumbnail": "http://books.google.com/books/content?id=AEGPAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=AEGPAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.be/books?id=Lp9aAAAAYAAJ&q=Hobbit&dq=Hobbit&hl=&cd=4&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=Lp9aAAAAYAAJ&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=Lp9aAAAAYAAJ"
+                "previewLink": "http://books.google.be/books?id=AEGPAAAAMAAJ&q=war&dq=war&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=AEGPAAAAMAAJ&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Globalization_and_War.html?hl=&id=AEGPAAAAMAAJ"
             },
             "saleInfo": {
                 "country": "BE",
@@ -1082,267 +670,52 @@
                 "pdf": {
                     "isAvailable": false
                 },
-                "webReaderLink": "http://play.google.com/books/reader?id=Lp9aAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "webReaderLink": "http://play.google.com/books/reader?id=AEGPAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
                 "accessViewStatus": "NONE",
                 "quoteSharingAllowed": false
             },
             "searchInfo": {
-                "textSnippet": "Bilbo Baggins, the hobbit, is a peaceful sort who lives in a cozy hole in the Shire, a place where adventures are uncommon - and rather unwanted."
+                "textSnippet": "Examining the interconnections between globalization and war, Barkawi (Centre of International Studies, U. of Cambridge, UK) first analyzes how war interconnects and reshapes places and how developments in the nature and utility of military ..."
             }
         },
-        "15": {
+        "10": {
             "kind": "books#volume",
-            "id": "rIqOaeTx074C",
-            "etag": "O7ODmcniJXw",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/rIqOaeTx074C",
+            "id": "jr5HAAAAIAAJ",
+            "etag": "i5a+aWRk45I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/jr5HAAAAIAAJ",
             "volumeInfo": {
-                "title": "The Hobbit (Enhanced Edition)",
+                "title": "The Man-of-war's Man's Manual, United States Navy",
                 "authors": [
-                    "J. R. R. Tolkien"
+                    "William Freeland Fullam"
                 ],
-                "publisher": "HarperCollins UK",
-                "publishedDate": "2011-11-18",
-                "description": "Exclusive to this Enhanced version of the eBook are recently discovered audio recordings by J.R.R. Tolkien, and new high-resolution colour images of all of Tolkien\u2019s illustrations for the book, many of which are also included in their earlier black-and-white versions and can be revealed by a simple swipe of the screen.",
+                "publishedDate": "1928",
                 "industryIdentifiers": [
                     {
-                        "type": "ISBN_13",
-                        "identifier": "9780007425389"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "0007425384"
+                        "type": "OTHER",
+                        "identifier": "UCAL:$B278632"
                     }
                 ],
                 "readingModes": {
-                    "text": true,
+                    "text": false,
                     "image": false
                 },
-                "pageCount": 304,
+                "pageCount": 241,
                 "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "averageRating": 4.5,
-                "ratingsCount": 24,
                 "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.3.3.0.preview.2",
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=rIqOaeTx074C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=rIqOaeTx074C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.be/books?id=rIqOaeTx074C&printsec=frontcover&dq=Hobbit&hl=&cd=5&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=rIqOaeTx074C&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit_Enhanced_Edition.html?hl=&id=rIqOaeTx074C"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": false,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/The_Hobbit_Enhanced_Edition-sample-epub.acsm?id=rIqOaeTx074C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=rIqOaeTx074C&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Exclusive to this Enhanced version of the eBook are recently discovered audio recordings by J.R.R. Tolkien, and new high-resolution colour images of all of Tolkien\u2019s illustrations for the book, many of which are also included in their ..."
-            }
-        },
-        "16": {
-            "kind": "books#volume",
-            "id": "GarZBQAAQBAJ",
-            "etag": "T5XY31q3OXQ",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/GarZBQAAQBAJ",
-            "volumeInfo": {
-                "title": "De hobbit & In de ban van de ring + De aanhangsels (5-in-1)",
-                "authors": [
-                    "J.R.R. Tolkien"
-                ],
-                "publisher": "Boekerij",
-                "publishedDate": "2014-12-17",
-                "description": "De hobbit vertelt het verhaal dat voorafgaat aan In de ban van de Ring. Van beide boeken zijn wereldwijd miljoenen exemplaren verkocht en ze behoren tot de geliefdste en meest invloedrijke verhalen van onze tijd. De hobbit vertelt het verhaal van Bilbo Balings, een hobbit die gehecht is aan een comfort. Hij moet er niet aan denken om verder te reizen dan de voorraadkamer van zijn hol onder De Heuvel. Bilbo's vredige bestaan wordt echter verstoord als de tovenaar Gandalf hem met dertien dwergen meeneemt op een ongewis avontuur. Ze zijn uit op de schat van Smaug de Verschrikkelijke, een immense en hoogst gevaarlijke draak. Maar ze zijn niet de enigen... In de ban van de Ring zet het verhaal voort. Wanneer de jonge hobbit Frodo Balings een ring erft, beseft hij niet dat dit het begin is van een groots avontuur. Gandalf onthult aan Frodo dat dit de verloren gewaande Ene Ring is, het wapen dat onvoorstelbaar lang geleden door de Donkere Vorst Sauron is gemaakt om de wereld te overheersen. En zolang de Ring bestaat, zal die dreiging blijven bestaan... Deze speciale e-boekbundel bevat de volgende titels: De hobbit en de trilogie In de ban van de Ring, die bestaat uit: De reisgenoten, De twee torens, De terugkeer van de koning en De aanhangsels.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9789402304039"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "9402304037"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": true
-                },
-                "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "1.2.2.0.preview.3",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.3.0.preview.0",
                 "panelizationSummary": {
                     "containsEpubBubbles": false,
                     "containsImageBubbles": false
                 },
                 "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=GarZBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=GarZBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "nl",
-                "previewLink": "http://books.google.be/books?id=GarZBQAAQBAJ&pg=PT16&dq=Hobbit&hl=&cd=6&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=GarZBQAAQBAJ&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/De_hobbit_In_de_ban_van_de_ring_+_De_aan.html?hl=&id=GarZBQAAQBAJ"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/De_hobbit_In_de_ban_van_de_ring_+_De_aan-sample-epub.acsm?id=GarZBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/De_hobbit_In_de_ban_van_de_ring_+_De_aan-sample-pdf.acsm?id=GarZBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=GarZBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "Dit boek gaat voornamelijk over <b>hobbits</b>, enuit deze bladzijdenkan de lezer veel te weten komen over hun karakter en ook iets over hun geschiedenis. Verdere bijzonderheden kan men ook vindenin de keuze uit hetRode Boek van Westmark,&nbsp;..."
-            }
-        },
-        "17": {
-            "kind": "books#volume",
-            "id": "H8ON-dTgQQYC",
-            "etag": "PwKsHYLStxU",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/H8ON-dTgQQYC",
-            "volumeInfo": {
-                "title": "The Hobbit",
-                "subtitle": "An Unexpected Journey : Visual Companion",
-                "authors": [
-                    "Jude Fisher"
-                ],
-                "publisher": "Houghton Mifflin Harcourt",
-                "publishedDate": "2012",
-                "description": "A visual companion to the film \"The Hobbit: An Unexpected Journey\" offers insights into the world of Middle-Earth and includes character profiles, bestiaries, and notes on the places of Middle-Earth.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9780547898568"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "0547898568"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": true
-                },
-                "pageCount": 75,
-                "printType": "BOOK",
-                "categories": [
-                    "Art"
-                ],
-                "averageRating": 4.5,
-                "ratingsCount": 8,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "0.1.0.0.preview.1",
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=H8ON-dTgQQYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=H8ON-dTgQQYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                    "smallThumbnail": "http://books.google.com/books/content?id=jr5HAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=jr5HAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
                 },
                 "language": "en",
-                "previewLink": "http://books.google.be/books?id=H8ON-dTgQQYC&printsec=frontcover&dq=Hobbit&hl=&cd=7&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=H8ON-dTgQQYC&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/The_Hobbit.html?hl=&id=H8ON-dTgQQYC"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": false
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=H8ON-dTgQQYC&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "A visual companion to the film &quot;The Hobbit: An Unexpected Journey&quot; offers insights into the world of Middle-Earth and includes character profiles, bestiaries, and notes on the places of Middle-Earth."
-            }
-        },
-        "18": {
-            "kind": "books#volume",
-            "id": "DkLmPAAACAAJ",
-            "etag": "9dhmV6+xqA4",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/DkLmPAAACAAJ",
-            "volumeInfo": {
-                "title": "In de ban van de Hobbit",
-                "subtitle": "leven en werk van Tolkien",
-                "authors": [
-                    "Johan Vanhecke"
-                ],
-                "publishedDate": "2005",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "9052408564"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9789052408569"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": false
-                },
-                "pageCount": 223,
-                "printType": "BOOK",
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "preview-1.0.0",
-                "language": "nl",
-                "previewLink": "http://books.google.be/books?id=DkLmPAAACAAJ&dq=Hobbit&hl=&cd=8&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=DkLmPAAACAAJ&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/In_de_ban_van_de_Hobbit.html?hl=&id=DkLmPAAACAAJ"
+                "previewLink": "http://books.google.be/books?id=jr5HAAAAIAAJ&q=war&dq=war&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=jr5HAAAAIAAJ&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_of_war_s_Man_s_Manual_United_Sta.html?hl=&id=jr5HAAAAIAAJ"
             },
             "saleInfo": {
                 "country": "BE",
@@ -1361,182 +734,12 @@
                 "pdf": {
                     "isAvailable": false
                 },
-                "webReaderLink": "http://play.google.com/books/reader?id=DkLmPAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "webReaderLink": "http://play.google.com/books/reader?id=jr5HAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
                 "accessViewStatus": "NONE",
                 "quoteSharingAllowed": false
-            }
-        },
-        "19": {
-            "kind": "books#volume",
-            "id": "38q3938-Kp8C",
-            "etag": "dnleYVhgAwA",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/38q3938-Kp8C",
-            "volumeInfo": {
-                "title": "Tolkien lexicon",
-                "subtitle": "de onmisbare gids bij de Hobbit en In de ban van de ring",
-                "authors": [
-                    "J.E.A. Tyler"
-                ],
-                "publisher": "Winkler Prins",
-                "publishedDate": "2012-10-19",
-                "description": "De wereld van J.R.R. Tolkien is Midden-Aarde. Daar spelen In de ban van de Ring en De Hobbit zich af. Daar ligt de Gouw, waar Bilbo en Frodo Balings hun behaaglijke Hobbithol met goedgevulde voorraadkast verlaten om de tovenaar Gandalf in het avontuur volgen. Het epos over het bezit van die Ene Ring is overdonderend in beeld gebracht in de films van regisseur Peter Jackson, een groots eerbetoon aan Tolkiens unieke universum. Een wereld die zo gedetailleerd is dat de lezer en de bioscoopbezoeker de volle omvang ervan nauwelijks overzien. J.E.A. Tyler verzamelde alle gegevens over personages, volken, landen en koninkrijken, veldslagen, monsters, talen, eten en drinken, bomen en planten. Het resultaat is dit omvangrijke handboek, de 'Wie is wie' en 'Wat is wat' van Midden-Aarde.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9789000315154"
-                    },
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "9000315158"
-                    }
-                ],
-                "readingModes": {
-                    "text": true,
-                    "image": true
-                },
-                "printType": "BOOK",
-                "categories": [
-                    "Fiction"
-                ],
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": false,
-                "contentVersion": "1.1.1.0.preview.3",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=38q3938-Kp8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=38q3938-Kp8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "nl",
-                "previewLink": "http://books.google.be/books?id=38q3938-Kp8C&printsec=frontcover&dq=Hobbit&hl=&cd=9&source=gbs_api",
-                "infoLink": "https://play.google.com/store/books/details?id=38q3938-Kp8C&source=gbs_api",
-                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=38q3938-Kp8C"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "FOR_SALE",
-                "isEbook": true,
-                "listPrice": {
-                    "amount": 12.99,
-                    "currencyCode": "EUR"
-                },
-                "retailPrice": {
-                    "amount": 12.99,
-                    "currencyCode": "EUR"
-                },
-                "buyLink": "https://play.google.com/store/books/details?id=38q3938-Kp8C&rdid=book-38q3938-Kp8C&rdot=1&source=gbs_api",
-                "offers": [
-                    {
-                        "finskyOfferType": 1,
-                        "listPrice": {
-                            "amountInMicros": 12990000,
-                            "currencyCode": "EUR"
-                        },
-                        "retailPrice": {
-                            "amountInMicros": 12990000,
-                            "currencyCode": "EUR"
-                        }
-                    }
-                ]
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/Tolkien_lexicon-sample-epub.acsm?id=38q3938-Kp8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/Tolkien_lexicon-sample-pdf.acsm?id=38q3938-Kp8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=38q3938-Kp8C&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
             },
             "searchInfo": {
-                "textSnippet": "J.E.A. Tyler verzamelde alle gegevens over personages, volken, landen en koninkrijken, veldslagen, monsters, talen, eten en drinken, bomen en planten."
-            }
-        },
-        "20": {
-            "kind": "books#volume",
-            "id": "N_0VhzQKIIAC",
-            "etag": "YBUEJFUo2mM",
-            "selfLink": "https://www.googleapis.com/books/v1/volumes/N_0VhzQKIIAC",
-            "volumeInfo": {
-                "title": "Finding God in the Hobbit",
-                "authors": [
-                    "Jim Ware"
-                ],
-                "publisher": "Tyndale House Publishers, Inc.",
-                "publishedDate": "2006",
-                "description": "Indulges readers with an exploration of the spiritual significance of J.R.R. Tolkien's famous children's classic.",
-                "industryIdentifiers": [
-                    {
-                        "type": "ISBN_10",
-                        "identifier": "1414305966"
-                    },
-                    {
-                        "type": "ISBN_13",
-                        "identifier": "9781414305967"
-                    }
-                ],
-                "readingModes": {
-                    "text": false,
-                    "image": true
-                },
-                "pageCount": 177,
-                "printType": "BOOK",
-                "categories": [
-                    "Religion"
-                ],
-                "averageRating": 4.5,
-                "ratingsCount": 13,
-                "maturityRating": "NOT_MATURE",
-                "allowAnonLogging": true,
-                "contentVersion": "2.2.6.0.preview.1",
-                "panelizationSummary": {
-                    "containsEpubBubbles": false,
-                    "containsImageBubbles": false
-                },
-                "imageLinks": {
-                    "smallThumbnail": "http://books.google.com/books/content?id=N_0VhzQKIIAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-                    "thumbnail": "http://books.google.com/books/content?id=N_0VhzQKIIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-                },
-                "language": "en",
-                "previewLink": "http://books.google.be/books?id=N_0VhzQKIIAC&pg=PA148&dq=Hobbit&hl=&cd=10&source=gbs_api",
-                "infoLink": "http://books.google.be/books?id=N_0VhzQKIIAC&dq=Hobbit&hl=&source=gbs_api",
-                "canonicalVolumeLink": "https://books.google.com/books/about/Finding_God_in_the_Hobbit.html?hl=&id=N_0VhzQKIIAC"
-            },
-            "saleInfo": {
-                "country": "BE",
-                "saleability": "NOT_FOR_SALE",
-                "isEbook": false
-            },
-            "accessInfo": {
-                "country": "BE",
-                "viewability": "PARTIAL",
-                "embeddable": true,
-                "publicDomain": false,
-                "textToSpeechPermission": "ALLOWED",
-                "epub": {
-                    "isAvailable": false
-                },
-                "pdf": {
-                    "isAvailable": true,
-                    "acsTokenLink": "http://books.google.be/books/download/Finding_God_in_the_Hobbit-sample-pdf.acsm?id=N_0VhzQKIIAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-                },
-                "webReaderLink": "http://play.google.com/books/reader?id=N_0VhzQKIIAC&hl=&printsec=frontcover&source=gbs_api",
-                "accessViewStatus": "SAMPLE",
-                "quoteSharingAllowed": false
-            },
-            "searchInfo": {
-                "textSnippet": "84 \u0631\u0648 85 \u0648\u0631 \u201c I am in fact a <b>Hobbit</b> ( in all but size ) . &quot; 84 And what better place for a <b>hobbit</b> than at home in his armchair with the kettle boiling and the lamp shining ? Charles Williams , publisher , author , and member of the&nbsp;..."
+                "textSnippet": "William Freeland Fullam. --\u2022 ...--\\ ! , ======EM-V)===- The Man-Of-<b>War&#39;s</b> Man&#39;s Manual United States 2Xavy F - j."
             }
         }
     }

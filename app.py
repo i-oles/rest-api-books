@@ -16,7 +16,7 @@ import re
 
 # venv/pyenv.cfg
 # include-system-site-packages = true
-    #sort = request.form.get('sort')
+
 
 
 app = Flask(__name__)
@@ -47,39 +47,6 @@ def get_books():
     return {'all books' : db.all() }
 
 
-    """
-    if request.method == 'GET':
-        published_date = request.args.get('published_date')
-        authors = request.args.get('authors')
-    """
-    
-
-
-def all_keys_in_book(book):
-    book = OrderedDict(book)
-    keys = book.keys()
-    values = book.values()
-    all_fields = dict(zip(keys, values))
-    return all_fields
-
-
-@app.route('/db', methods=['POST'])
-def add_books():
-    q = requests.data=payload)
-    d = 'https://www.googleapis.com/books/v1/volumes'
-
-    data = requests.get(api_url).json()
-    items = data['items']
-
-    for book in items:
-        if db.contains(Query().id == book['id']):
-            db.upsert(all_keys_in_book(book), Query().id == book['id'])
-        else:
-            db.insert(all_keys_in_book(book))
-
-    return { 'all books': db.all() }
-
-
 
 @app.route('/books/<bookId>')
 def get_book(bookId):
@@ -95,6 +62,36 @@ def get_book(bookId):
                 }
     else:
         return abort(404) 
+
+
+
+
+
+def all_keys_in_book(book):
+    book = OrderedDict(book)
+    keys = book.keys()
+    values = book.values()
+    all_fields = dict(zip(keys, values))
+    return all_fields
+
+
+@app.route('/db', methods=['POST'])
+def add_books():
+    data = request.get_json()
+    api_url = 'https://www.googleapis.com/books/v1/volumes?q=' + data['q']
+
+    data = requests.get(api_url).json()
+    items = data['items']
+
+    for book in items:
+        if db.contains(Query().id == book['id']):
+            db.upsert(all_keys_in_book(book), Query().id == book['id'])
+            print('updated')
+        else:
+            db.insert(all_keys_in_book(book))
+            print('added')
+    
+    return {}
 
 
 if __name__ == '__main__':
