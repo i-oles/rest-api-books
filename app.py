@@ -1,5 +1,6 @@
 from flask import Flask, abort, render_template, request
 from tinydb import TinyDB, Query, where
+from tinydb.storages import MemoryStorage
 from collections import OrderedDict
 import requests
 import re
@@ -10,16 +11,11 @@ import re
 # less fields in db?
 # case insensitive?
 # author   &   author?
-# keys names of returns
-# all books view --> add context?
 # two different authors
-
-# venv/pyenv.cfg
-# include-system-site-packages = true
 
 
 app = Flask(__name__)
-db = TinyDB('db.json', indent=4)
+db = TinyDB(storage=MemoryStorage)
 
 
 @app.route("/books", methods=['GET'])
@@ -28,22 +24,22 @@ def get_books():
     author = request.args.get('author')
     if author:
         books_by_authors = db.search(where('volumeInfo')['authors'].any(author))
-        return {f'written by {author}': books_by_authors}
+        return {'books': books_by_authors}
     
     published_date = request.args.get('published_date')
     if published_date:
         books_by_date = db.search(Query().volumeInfo.publishedDate.search(published_date))
-        return {f'published in {published_date}' : books_by_date}
+        return {'books' : books_by_date}
 
     sort = request.args.get('sort')
     if sort == 'published_date':
         sorted_asc_books = sorted(db.all(), key=lambda book: book['volumeInfo']['publishedDate'])
-        return { 'sorted ascending' : sorted_asc_books }
+        return {'books' : sorted_asc_books }
     if sort == '-published_date':
-        sorted_asc_books = sorted(db.all(), key=lambda book: book['volumeInfo']['publishedDate'], reverse=True)
-        return { 'sorted descending' : sorted_asc_books }
+        sorted_dsc_books = sorted(db.all(), key=lambda book: book['volumeInfo']['publishedDate'], reverse=True)
+        return {'books' : sorted_dsc_books }
 
-    return { 'all books' : db.all() }
+    return {'books' : db.all() }
 
 
 @app.route('/books/<bookId>', methods = ['GET'])
@@ -81,11 +77,9 @@ def add_books():
     for book in items:
         if db.contains(Query().id == book['id']):
             db.upsert(all_keys_in_book(book), Query().id == book['id'])
-            print('updated')
         else:
             db.insert(all_keys_in_book(book))
-            print('added')
-    
+  
     return {}
 
 
