@@ -1,6 +1,5 @@
 from flask import Flask, abort, render_template, request
 from tinydb import TinyDB, Query, where
-from tinydb.storages import MemoryStorage
 from collections import OrderedDict
 import requests
 import re
@@ -15,7 +14,7 @@ import re
 
 
 app = Flask(__name__)
-db = TinyDB(storage=MemoryStorage)
+db = TinyDB('db.json', indent=4)
 
 
 @app.route("/books", methods=['GET'])
