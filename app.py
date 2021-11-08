@@ -6,10 +6,10 @@ import re
 
 # Todo:
 
-# less fields in db
-# case insensitive
-# author & author
-# url correct paths
+# percent in url
+# less fields in db?
+# case insensitive?
+# author   &   author?
 # keys names of returns
 # all books view --> add context?
 # two different authors
@@ -18,13 +18,13 @@ import re
 # include-system-site-packages = true
 
 
-
 app = Flask(__name__)
 db = TinyDB('db.json', indent=4)
 
 
 @app.route("/books", methods=['GET'])
 def get_books():
+
     author = request.args.get('author')
     if author:
         books_by_authors = db.search(where('volumeInfo')['authors'].any(author))
@@ -35,20 +35,18 @@ def get_books():
         books_by_date = db.search(Query().volumeInfo.publishedDate.search(published_date))
         return {f'published in {published_date}' : books_by_date}
 
-    def myFunc(e):
-        return e['volumeInfo']
-
     sort = request.args.get('sort')
     if sort == 'published_date':
-        return db.all().sort(key=myFunc)
+        sorted_asc_books = sorted(db.all(), key=lambda book: book['volumeInfo']['publishedDate'])
+        return { 'sorted ascending' : sorted_asc_books }
     if sort == '-published_date':
-        return db.all().sort(reverse= True, key=lambda x: x['volumeInfo']['publishedDate'])
+        sorted_asc_books = sorted(db.all(), key=lambda book: book['volumeInfo']['publishedDate'], reverse=True)
+        return { 'sorted descending' : sorted_asc_books }
 
-    return {'all books' : db.all() }
+    return { 'all books' : db.all() }
 
 
-
-@app.route('/books/<bookId>')
+@app.route('/books/<bookId>', methods = ['GET'])
 def get_book(bookId):
     if db.contains(Query().id == bookId):
         book = db.get(Query().id == bookId)
@@ -61,10 +59,7 @@ def get_book(bookId):
                 'thumbnail' : book['volumeInfo'].get('thumbnail', None),
                 }
     else:
-        return abort(404) 
-
-
-
+        return abort(404)
 
 
 def all_keys_in_book(book):
