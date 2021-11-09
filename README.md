@@ -10,7 +10,7 @@ python3 app.py
 # Running
 
 ```
-python app.py
+python3 app.py
 
 curl -H "Content-Type: application/json" -X POST --data '{ "q": "Hobbit" }' "http://localhost:5000/db"
 
