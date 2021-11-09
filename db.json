@@ -1,0 +1,889 @@
+{
+    "_default": {
+        "1": {
+            "kind": "books#volume",
+            "id": "IbbEuQYtTrQC",
+            "etag": "uVJRP4K4JUc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/IbbEuQYtTrQC",
+            "volumeInfo": {
+                "title": "Britain's War Machine",
+                "subtitle": "Weapons, Resources, and Experts in the Second World War",
+                "authors": [
+                    "David Edgerton"
+                ],
+                "publisher": "Oxford University Press",
+                "publishedDate": "2011-09-09",
+                "description": "The familiar image of the British in the Second World War is that of the plucky underdog taking on German might. David Edgerton's bold, compelling new history shows the conflict in a new light, with Britain as a very wealthy country, formidable in arms, ruthless in pursuit of its interests, and in command of a global production system. Rather than belittled by a Nazi behemoth, Britain arguably had the world's most advanced mechanized forces. It had not only a great empire, but allies large and small.Edgerton shows that Britain fought on many fronts and its many home fronts kept it exceptionally well supplied with weapons, food and oil, allowing it to mobilize to an extraordinary extent. It created and deployed a vast empire of machines, from the humble tramp steamer to the battleship, from the rifle to the tank, made in colossal factories the world over. Scientists and engineers invented new weapons, encouraged by a government and prime minister enthusiastic about the latest technologies. The British, indeed Churchillian, vision of war and modernity was challenged by repeated defeat at the hands of less well-equipped enemies. Yet the end result was a vindication of this vision. Like the United States, a powerful Britain won a cheap victory, while others paid a great price.Putting resources, machines and experts at the heart of a global rather than merely imperial story, Britain's War Machine demolishes timeworn myths about wartime Britain and gives us a groundbreaking and often unsettling picture of a great power in action.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780199832675"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0199832676"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 445,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "averageRating": 3,
+                "ratingsCount": 3,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.0.0.preview.1",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=IbbEuQYtTrQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=IbbEuQYtTrQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=IbbEuQYtTrQC&printsec=frontcover&dq=war&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=IbbEuQYtTrQC&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Britain_s_War_Machine.html?hl=&id=IbbEuQYtTrQC"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=IbbEuQYtTrQC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "David Edgerton&#39;s bold, compelling new history shows the conflict in a new light, with Britain as a very wealthy country, formidable in arms, ruthless in pursuit of its interests, and in command of a global production system."
+            }
+        },
+        "2": {
+            "kind": "books#volume",
+            "id": "ckD1DwAAQBAJ",
+            "etag": "fawa0/y1o7w",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ckD1DwAAQBAJ",
+            "volumeInfo": {
+                "title": "China\u2019s Good War",
+                "authors": [
+                    "Rana Mitter"
+                ],
+                "publisher": "Harvard University Press",
+                "publishedDate": "2020-09-15",
+                "description": "Chinese leaders once tried to suppress memories of their nation\u2019s brutal experience during World War II. Now they celebrate the \u201cvictory\u201d\u2014a key foundation of China\u2019s rising nationalism. For most of its history, the People\u2019s Republic of China discouraged public discussion of the war against Japan. It was an experience of victimization\u2014and one that saw Mao Zedong and Chiang Kai-shek fighting for the same goals. But now, as China grows more powerful, the meaning of the war is changing. Rana Mitter argues that China\u2019s reassessment of the war years is central to its newfound confidence abroad and to mounting nationalism at home. China\u2019s Good War begins with the academics who shepherded the once-taboo subject into wider discourse. Encouraged by reforms under Deng Xiaoping, they researched the Guomindang war effort, collaboration with the Japanese, and China\u2019s role in forming the post-1945 global order. But interest in the war would not stay confined to scholarly journals. Today public sites of memory\u2014including museums, movies and television shows, street art, popular writing, and social media\u2014define the war as a founding myth for an ascendant China. Wartime China emerges as victor rather than victim. The shifting story has nurtured a number of new views. One rehabilitates Chiang Kai-shek\u2019s war efforts, minimizing the bloody conflicts between him and Mao and aiming to heal the wounds of the Cultural Revolution. Another narrative positions Beijing as creator and protector of the international order that emerged from the war\u2014an order, China argues, under threat today largely from the United States. China\u2019s radical reassessment of its collective memory of the war has created a new foundation for a people destined to shape the world.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780674249554"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0674249550"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 288,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ckD1DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ckD1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=ckD1DwAAQBAJ&printsec=frontcover&dq=war&hl=&cd=2&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ckD1DwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ckD1DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 25,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 17.5,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ckD1DwAAQBAJ&rdid=book-ckD1DwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 25000000,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 17500000,
+                            "currencyCode": "EUR"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.be/books/download/China_s_Good_War-sample-epub.acsm?id=ckD1DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.be/books/download/China_s_Good_War-sample-pdf.acsm?id=ckD1DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ckD1DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Wartime China emerges as victor rather than victim. The shifting story has nurtured a number of new views."
+            }
+        },
+        "3": {
+            "kind": "books#volume",
+            "id": "T0Cp3kt2tE4C",
+            "etag": "3CRzDQduPec",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/T0Cp3kt2tE4C",
+            "volumeInfo": {
+                "title": "The Changing Face of War",
+                "subtitle": "Combat from the Marne to Iraq",
+                "authors": [
+                    "Martin Van Creveld"
+                ],
+                "publisher": "Presidio Press",
+                "publishedDate": "2008-01",
+                "description": "A provocative look at how war has changed over the course of the past century reveals how twentieth-century warfare evolved from its historical predecessors, as well as what terrorism and other modern-day phenomena mean in terms of the future of war. Reprint. 10,000 first printing.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780891419020"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0891419020"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 319,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "averageRating": 4,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.1.0.preview.0",
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=T0Cp3kt2tE4C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=T0Cp3kt2tE4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=T0Cp3kt2tE4C&dq=war&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=T0Cp3kt2tE4C&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Changing_Face_of_War.html?hl=&id=T0Cp3kt2tE4C"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=T0Cp3kt2tE4C&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "A provocative look at how war has changed over the course of the past century reveals how twentieth-century warfare evolved from its historical predecessors, as well as what terrorism and other modern-day phenomena mean in terms of the ..."
+            }
+        },
+        "4": {
+            "kind": "books#volume",
+            "id": "apZmAAAAcAAJ",
+            "etag": "c1BluGZddfo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/apZmAAAAcAAJ",
+            "volumeInfo": {
+                "title": "An Essay upon ways and means of supplying the war. [By C. Davenant.]",
+                "publishedDate": "1695",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "BL:A0020993521"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 160,
+                "printType": "BOOK",
+                "categories": [
+                    "Finance"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=apZmAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=apZmAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "nl",
+                "previewLink": "http://books.google.be/books?id=apZmAAAAcAAJ&pg=PA107&dq=war&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=apZmAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=apZmAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=apZmAAAAcAAJ&rdid=book-apZmAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.be/books/download/An_Essay_upon_ways_and_means_of_supplyin.epub?id=apZmAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=apZmAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Parliament suspected an Aid was desired , and no <b>War</b> intended , fo that their Guift seems condicional , and they name Commissioners , to fee to the due Performance of the Truft . But afterwards , in the Reign of Harry the Seventh&nbsp;..."
+            }
+        },
+        "5": {
+            "kind": "books#volume",
+            "id": "RiBZAAAAcAAJ",
+            "etag": "DzN/BWLMaQw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/RiBZAAAAcAAJ",
+            "volumeInfo": {
+                "title": "War-net der papisten, waer in sy haer self soo verwarren, dat sy niet maghtigh en sijn daar uyt te spartelen, ...",
+                "authors": [
+                    "Engelbertus Franciscus LeBoucq"
+                ],
+                "publishedDate": "1701",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "KBNL:KBNL03000175487"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.3.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=RiBZAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=RiBZAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "nl",
+                "previewLink": "http://books.google.be/books?id=RiBZAAAAcAAJ&pg=PA120&dq=war&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=RiBZAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RiBZAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=RiBZAAAAcAAJ&rdid=book-RiBZAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.be/books/download/War_net_der_papisten_waer_in_sy_haer_sel.epub?id=RiBZAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=RiBZAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Van de volherdinge der 120 Het <b>W\u00e4r</b> - Net."
+            }
+        },
+        "6": {
+            "kind": "books#volume",
+            "id": "GoBjAAAAcAAJ",
+            "etag": "XGNYoelEKAQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/GoBjAAAAcAAJ",
+            "volumeInfo": {
+                "title": "De war-religie ofte de verwarde, valsche en reden-loose religie Iacobi Triglandii, aengewesen in syn boeck geintituleert De ware religie verantwoort, &c",
+                "subtitle": "By forme van dialogue of t'samen-sprekinghe tusschen Ghereformeerde en Contra Remonstrant",
+                "publishedDate": "1634",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "KBNL:UBA000026383"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 327,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.3.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=GoBjAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=GoBjAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "nl",
+                "previewLink": "http://books.google.be/books?id=GoBjAAAAcAAJ&pg=PA249&dq=war&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=GoBjAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=GoBjAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=GoBjAAAAcAAJ&rdid=book-GoBjAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.be/books/download/De_war_religie_ofte_de_verwarde_valsche.epub?id=GoBjAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=GoBjAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "3 11 O t 23 \u5317 om met den monte uptetlijik gefchiet.sffer koel pertant To <b>Wars</b> getoetfi noe ter tijt / ofte fauder boel pemant fo dwaeg t&#39;eenigen toen gevonden wozden die foude berben dzpb\u00e9 / bat de upterlijcke belpdenifie die altren&nbsp;..."
+            }
+        },
+        "7": {
+            "kind": "books#volume",
+            "id": "YxyaBzu37WIC",
+            "etag": "hZK+oHqQZrs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/YxyaBzu37WIC",
+            "volumeInfo": {
+                "title": "The War Works Hard",
+                "authors": [
+                    "Dunya Mikhail",
+                    "Duny\u0101 M\u012bkh\u0101\u02bc\u012bl",
+                    "Elizabeth Winslow"
+                ],
+                "publisher": "New Directions Publishing",
+                "publishedDate": "2005",
+                "description": "Poems by an exiled Iraqi poet, many about war.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0811216217"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780811216210"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 80,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.6.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=YxyaBzu37WIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=YxyaBzu37WIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=YxyaBzu37WIC&printsec=frontcover&dq=war&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=YxyaBzu37WIC&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_War_Works_Hard.html?hl=&id=YxyaBzu37WIC"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.be/books/download/The_War_Works_Hard-sample-epub.acsm?id=YxyaBzu37WIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=YxyaBzu37WIC&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Poems by an exiled Iraqi poet, many about war."
+            }
+        },
+        "8": {
+            "kind": "books#volume",
+            "id": "x38uAQAAIAAJ",
+            "etag": "Cf86J27pcKs",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/x38uAQAAIAAJ",
+            "volumeInfo": {
+                "title": "The Vietnam War",
+                "authors": [
+                    "Tom Pendergast"
+                ],
+                "publisher": "Omnigraphics Incorporated",
+                "publishedDate": "2007",
+                "description": "Provides users with a detailed and authoritative overview of this event, as well as the principal figures involved in this pivotal episode in U.S. history.",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "STANFORD:36105123218740"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 271,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.3.2.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=x38uAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=x38uAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=x38uAQAAIAAJ&q=war&dq=war&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=x38uAQAAIAAJ&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Vietnam_War.html?hl=&id=x38uAQAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=x38uAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "The Perfect <b>War</b> : The <b>War</b> We Couldn &#39; t Lose and How We Did . Boston : Atlantic Monthly Press , 1986 . Gilbert , Marc Jason , ed . Why the North Won the Vietnam <b>War</b> . New York : Palgrave , 2002 . Hay , Jeff , ed . Richard M . Nixon ."
+            }
+        },
+        "9": {
+            "kind": "books#volume",
+            "id": "K23eCgAAQBAJ",
+            "etag": "WVRU278bH2g",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/K23eCgAAQBAJ",
+            "volumeInfo": {
+                "title": "Japan and the Great War",
+                "authors": [
+                    "Antony Best",
+                    "Oliviero Frattolillo"
+                ],
+                "publisher": "Springer",
+                "publishedDate": "2015-10-05",
+                "description": "In this book, seven internationally renowned experts on Japanese and Asian history have come together to investigate, with innovative methodological approaches, various aspects of the Japanese experience during and after the First World War.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781137546746"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1137546743"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 186,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=K23eCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=K23eCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=K23eCgAAQBAJ&printsec=frontcover&dq=war&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=K23eCgAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K23eCgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 90.09,
+                    "currencyCode": "EUR"
+                },
+                "retailPrice": {
+                    "amount": 63.06,
+                    "currencyCode": "EUR"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=K23eCgAAQBAJ&rdid=book-K23eCgAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 90090000,
+                            "currencyCode": "EUR"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 63060000,
+                            "currencyCode": "EUR"
+                        }
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.be/books/download/Japan_and_the_Great_War-sample-epub.acsm?id=K23eCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.be/books/download/Japan_and_the_Great_War-sample-pdf.acsm?id=K23eCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=K23eCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "In this book, seven internationally renowned experts on Japanese and Asian history have come together to investigate, with innovative methodological approaches, various aspects of the Japanese experience during and after the First World War ..."
+            }
+        },
+        "10": {
+            "kind": "books#volume",
+            "id": "jr5HAAAAIAAJ",
+            "etag": "au/HVNUVkTk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/jr5HAAAAIAAJ",
+            "volumeInfo": {
+                "title": "The Man-of-war's Man's Manual, United States Navy",
+                "authors": [
+                    "William Freeland Fullam"
+                ],
+                "publishedDate": "1928",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCAL:$B278632"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 241,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.2.3.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=jr5HAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=jr5HAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.be/books?id=jr5HAAAAIAAJ&q=war&dq=war&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=jr5HAAAAIAAJ&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Man_of_war_s_Man_s_Manual_United_Sta.html?hl=&id=jr5HAAAAIAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=jr5HAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "William Freeland Fullam. --\u2022 ...--\\ ! , ======EM-V)===- The Man-Of-<b>War&#39;s</b> Man&#39;s Manual United States 2Xavy F - j."
+            }
+        },
+        "11": {
+            "kind": "books#volume",
+            "id": "v6P2DAAAQBAJ",
+            "etag": "GGSDNVBbAwA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/v6P2DAAAQBAJ",
+            "volumeInfo": {
+                "title": "War Dogs",
+                "subtitle": "hoe drie losers de grootste wapenhandelaren ter wereld werden",
+                "authors": [
+                    "Guy Lawson"
+                ],
+                "publisher": "Prometheus",
+                "publishedDate": "2016-08-12",
+                "description": "In januari 2007 slepen drie jonge nietsnutten uit Miami Beach een contract van 300 miljoen dollar binnen van het Amerikaanse ministerie van Defensie voor de levering van wapens aan het Afghaanse leger. Alles wat ze daarvoor nodig hebben is een rommelig appartement, een internetverbinding en een voorraad sterke marihuana. Efraim Diveroli, David Packouz en Alex Podrizki, de drie dudes, worden geacht topkwaliteit wapens te leveren, maar ze hebben geen idee waar ze die vandaan moeten halen. Ze leveren allerhande dubieus materieel afkomstig uit de Balkan en het Verre Oosten en worden tot overmaat van ramp getroffen door een wapenembargo opgelegd door hun eigen regering. Een catastrofe is het gevolg. War Dogs volgt de jongens tijdens een krankzinnige tocht door Europa, waarbij ze te maken krijgen met Russische politieke intriges, een louche Zwitserse wapenhandelaar, corruptie in de berggrotten van Albani\u00eb en een dwaas onderzoek van de gangen van het Pentagon dat de oorlog in Afghanistan ernstig zal hinderen. War Dogs is een waargebeurde internationale thriller en een bewijs voor de stelling dat de waarheid soms vreemder is dan fictie. In 2016 werd het boek verfilmd door het team van The Hangover. Guy Lawson ging na zijn studies in Perth en Cambridge als advocaat werken op Wall Street, maar stopte daar al snel mee om zich op het schrijven te richten. Twee decennia lang reisde hij de wereld rond om verslag te doen van een breed scala aan onderwerpen. Zijn werk werd gepubliceerd in een groot aantal gezaghebbende bladen zoals The New York Times, GQ, Rolling Stone, The New York Review of Books en The London Observer. 'Buitengewoon. (...) Een waanzinnig boek.' NEW YORK DAILY NEWS 'Een triomf van de verhalende onderzoeksjournalistiek.' RAJIV CHANDRASEKARAN, AUTEUR VAN IMPERIAL LIFE IN THE EMERALD CITY EN LITTLE AMERICA 'Lawsons oog voor detail en onderzoek zijn prijzenswaardig. (...) Gedetailleerde beschrijvingen van samenzweringen in achterafkamertjes, corruptie, bureaucratie, en intriges die gepaard gaan met de hoge belangen in de wapenhandel.' PUBLISHERS WEEKLY 'Het is een fenomenaal boek. Ik kon het niet wegleggen.' HUFFPOST LIVE",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9789044632330"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "9044632337"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=v6P2DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=v6P2DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "nl",
+                "previewLink": "http://books.google.be/books?id=v6P2DAAAQBAJ&pg=PT78&dq=war&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.be/books?id=v6P2DAAAQBAJ&dq=war&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/War_Dogs.html?hl=&id=v6P2DAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=v6P2DAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Packouz meende in de barsc\u00e8ne van de eerste Star <b>Wars</b>-film te zijn beland, getuige het contingent moordenaars en wapenexperts die van heinde en verre op de beurs waren afgekomen \u2013 bezwete generaals uit de Filipijnen; ijdele,&nbsp;..."
+            }
+        },
+        "12": {
+            "kind": "books#volume",
+            "id": "V0tUAAAAcAAJ",
+            "etag": "eKq0NLMdbeQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/V0tUAAAAcAAJ",
+            "volumeInfo": {
+                "title": "Mas-Aniello, of Napels in de war",
+                "subtitle": "boertig heldendicht, in tien zangen",
+                "authors": [
+                    "Abraham Louis Barbaz"
+                ],
+                "publishedDate": "1828",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "KBNL:KBNL03000055061"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 146,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.5.4.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=V0tUAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=V0tUAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "nl",
+                "previewLink": "http://books.google.be/books?id=V0tUAAAAcAAJ&pg=PA118&dq=war&hl=&cd=6&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=V0tUAAAAcAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=V0tUAAAAcAAJ"
+            },
+            "saleInfo": {
+                "country": "BE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=V0tUAAAAcAAJ&rdid=book-V0tUAAAAcAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "BE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.be/books/download/Mas_Aniello_of_Napels_in_de_war.epub?id=V0tUAAAAcAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=V0tUAAAAcAAJ&hl=&printsec=frontcover&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Wie is , wie was &#39; er ooit , wie zal &#39; er immer wezen , Gantsch vry van eigenmin , en <b>wars</b> te zyn geprezen ? De dichter van dit werk ? Och neen ! in &#39; t minste niet : Hy hoopt eene eeuwige eer van &#39; t brommend heldenlied ."
+            }
+        }
+    }
+}
