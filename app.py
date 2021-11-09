@@ -1,20 +1,9 @@
-from flask import Flask, abort, render_template, request
-from tinydb import TinyDB, Query, where
+from flask import Flask, request, json
+from tinydb import TinyDB, Query
 from collections import OrderedDict
+from werkzeug.exceptions import HTTPException
 import requests
-import re
 
-# TODO
-
-#   tests
-#   readme
-#   comments in code?
-
-# does not work:
-#   https://5000-violet-clam-1vvww535.ws-eu18.gitpod.io/books?date_published=2015&author=Rana%20Mitter
-#   https://5000-violet-clam-1vvww535.ws-eu18.gitpod.io/books?author=Rana%20Mitter&date_published=2015
-
-# books?xxx  to all books.
 
 app = Flask(__name__)
 db = TinyDB('db.json', indent=4)
@@ -66,7 +55,7 @@ def get_book(bookId):
     if book:
         return map_book(book)
     else:
-        return abort(404)
+        return {'error' : 'not found'}
 
 
 def all_keys_in_book(book):
@@ -84,13 +73,31 @@ def add_books():
     content = requests.get('https://www.googleapis.com/books/v1/volumes', params={'q': q}).json()
     items = content['items']
 
+    counter = {'added' : 0, 'updated' : 0}
     for book in items:
         if db.contains(Query().id == book['id']):
             db.upsert(all_keys_in_book(book), Query().id == book['id'])
+            counter['updated'] += 1
         else:
             db.insert(all_keys_in_book(book))
-  
-    return {}
+            counter['added'] += 1
+
+    return counter
+
+
+
+# https://sites.uclouvain.be/P2SINF/flask/errorhandling.html
+@app.errorhandler(HTTPException)
+def handle_exception(e):
+    response = e.get_response()
+    response.data = json.dumps({
+        "code": e.code,
+        "name": e.name,
+        "description": e.description,
+    })
+    response.content_type = "application/json"
+    return response
+
 
 
 if __name__ == '__main__':
