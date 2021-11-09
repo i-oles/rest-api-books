@@ -10,7 +10,8 @@ db = TinyDB('db.json', indent=4)
 
 
 def map_book(book):
-    return {'title' : book['volumeInfo'].get('title', None),
+    return {'id' : book.get('id', None),
+            'title' : book['volumeInfo'].get('title', None),
             'authors' : book['volumeInfo'].get('authors', None),
             'published_date' : book['volumeInfo'].get('publishedDate', None),
             'categories' : book['volumeInfo'].get('categories', None),

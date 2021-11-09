@@ -21,3 +21,19 @@ curl  "http://localhost:5000/books?author=J.%20R.%20R.%20Tolkien&author=John%20R
 curl "http://localhost:5000/books?published_date=2012"
 
 ```
+
+# Running on Pythonanywhere.com
+
+```
+python3 app.py
+
+curl -H "Content-Type: application/json" -X POST --data '{ "q": "Hobbit" }' "http://igoroles.pythonanywhere.com/db"
+
+curl "http://igoroles.pythonanywhere.com/books/rToaogEACAAJ"
+
+curl "http://igoroles.pythonanywhere.com/books?author=J.%20R.%20R.%20Tolkien&author=John%20Ronald%20Reuel%20Tolkien&sort=published_date"
+
+curl "http://igoroles.pythonanywhere.com/books?published_date=2012"
+
+```
+
