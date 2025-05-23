@@ -18,7 +18,7 @@ curl -H "Content-Type: application/json" -X POST --data '{ "q": "Hobbit" }' "htt
 Return book by id:
 curl "http://127.0.0.1:5000/books/QSUREAAAQBAJ"
 
-Return books by author, and sort by published_date
+Return books by author, and sort by published_date:
 curl "http://127.0.0.1:5000/books?author=J.%20R.%20R.%20Tolkien&author=John%20Ronald%20Reuel%20Tolkien&sort=published_date"
 
 Return books by published_date:
